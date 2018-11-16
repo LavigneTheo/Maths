@@ -1,0 +1,45 @@
+﻿  Matrix.cpp
+c:\code\maths\my_maths\maths\matrix\matrix.cpp(21): warning C4018: '<': signed/unsigned mismatch
+  c:\code\maths\my_maths\maths\matrix\matrix.cpp(19): note: while compiling class template member function 'mtl::Matrix<int>::Matrix(std::vector<N,std::allocator<_Ty>> &,unsigned int,unsigned int)'
+          with
+          [
+              N=int,
+              _Ty=int
+          ]
+  c:\code\maths\my_maths\maths\matrix\matrix.cpp(75): note: see reference to class template instantiation 'mtl::Matrix<int>' being compiled
+c:\code\maths\my_maths\maths\matrix\matrix.cpp(22): warning C4018: '<': signed/unsigned mismatch
+c:\code\maths\my_maths\maths\matrix\matrix.cpp(13): warning C4018: '<': signed/unsigned mismatch
+  c:\code\maths\my_maths\maths\matrix\matrix.cpp(11): note: while compiling class template member function 'mtl::Matrix<int>::Matrix(N [],unsigned int,unsigned int)'
+          with
+          [
+              N=int
+          ]
+c:\code\maths\my_maths\maths\matrix\matrix.cpp(14): warning C4018: '<': signed/unsigned mismatch
+c:\code\maths\my_maths\maths\matrix\matrix.cpp(34): warning C4018: '<': signed/unsigned mismatch
+  c:\code\maths\my_maths\maths\matrix\matrix.cpp(27): note: while compiling class template member function 'mtl::Matrix<int> mtl::Matrix<int>::mul(mtl::Matrix<int>,mtl::Matrix<int>)'
+c:\code\maths\my_maths\maths\matrix\matrix.cpp(35): warning C4018: '<': signed/unsigned mismatch
+c:\code\maths\my_maths\maths\matrix\matrix.cpp(37): warning C4018: '<': signed/unsigned mismatch
+c:\code\maths\my_maths\maths\matrix\matrix.cpp(42): warning C4244: 'argument': conversion from 'float' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\code\maths\my_maths\maths\matrix\matrix.cpp(52): warning C4018: '<': signed/unsigned mismatch
+  c:\code\maths\my_maths\maths\matrix\matrix.cpp(50): note: while compiling class template member function 'void mtl::Matrix<int>::print(void) const'
+c:\code\maths\my_maths\maths\matrix\matrix.cpp(53): warning C4018: '<': signed/unsigned mismatch
+c:\code\maths\my_maths\maths\matrix\matrix.cpp(67): warning C4018: '<': signed/unsigned mismatch
+  c:\code\maths\my_maths\maths\matrix\matrix.cpp(64): note: while compiling class template member function 'void mtl::Matrix<int>::identity(void)'
+c:\code\maths\my_maths\maths\matrix\matrix.cpp(68): warning C4018: '<': signed/unsigned mismatch
+c:\code\maths\my_maths\maths\matrix\matrix.cpp(40): warning C4244: '+=': conversion from 'N' to 'float', possible loss of data
+          with
+          [
+              N=double
+          ]
+  Matrix4x4f.cpp
+  Quaternion.cpp
+  Utils.cpp
+c:\code\maths\my_maths\maths\utils.cpp(5): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\code\maths\my_maths\maths\utils.cpp(8): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\code\maths\my_maths\maths\utils.cpp(11): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Vector3f.cpp
+  Maths.vcxproj -> C:\code\maths\my_maths\Release\Maths.lib

@@ -1,0 +1,53 @@
+﻿  stdafx.cpp
+  Quaternion_test.cpp
+c:\code\maths\maths\unit_test\quaternion_test.cpp(57): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\code\maths\maths\unit_test\quaternion_test.cpp(58): warning C4305: 'argument': truncation from 'double' to 'const float'
+  Matrix_test.cpp
+c:\code\maths\maths\unit_test\matrix_test.cpp(22): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+c:\code\maths\maths\unit_test\matrix_test.cpp(58): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+  Vector_test.cpp
+c:\code\maths\maths\unit_test\vector_test.cpp(30): warning C4305: 'argument': truncation from 'double' to 'const float'
+  Generating Code...
+     Creating library C:\code\maths\Maths\x64\Debug\Unit_test.lib and object C:\code\maths\Maths\x64\Debug\Unit_test.exp
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: __cdecl Vector3f::Vector3f(float,float,float)" (??0Vector3f@@QEAA@MMM@Z) referenced in function "public: void __cdecl Unit_test::Quaternion_test::set_data(void)" (?set_data@Quaternion_test@Unit_test@@QEAAXXZ)
+Vector_test.obj : error LNK2001: unresolved external symbol "public: __cdecl Vector3f::Vector3f(float,float,float)" (??0Vector3f@@QEAA@MMM@Z)
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: float __cdecl Vector3f::getX(void)const " (?getX@Vector3f@@QEBAMXZ) referenced in function "public: void __cdecl Unit_test::Quaternion_test::add_sub(void)" (?add_sub@Quaternion_test@Unit_test@@QEAAXXZ)
+Vector_test.obj : error LNK2001: unresolved external symbol "public: float __cdecl Vector3f::getX(void)const " (?getX@Vector3f@@QEBAMXZ)
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: float __cdecl Vector3f::getY(void)const " (?getY@Vector3f@@QEBAMXZ) referenced in function "public: void __cdecl Unit_test::Quaternion_test::add_sub(void)" (?add_sub@Quaternion_test@Unit_test@@QEAAXXZ)
+Vector_test.obj : error LNK2001: unresolved external symbol "public: float __cdecl Vector3f::getY(void)const " (?getY@Vector3f@@QEBAMXZ)
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: float __cdecl Vector3f::getZ(void)const " (?getZ@Vector3f@@QEBAMXZ) referenced in function "public: void __cdecl Unit_test::Quaternion_test::add_sub(void)" (?add_sub@Quaternion_test@Unit_test@@QEAAXXZ)
+Vector_test.obj : error LNK2001: unresolved external symbol "public: float __cdecl Vector3f::getZ(void)const " (?getZ@Vector3f@@QEBAMXZ)
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: __cdecl Quaternion::Quaternion(void)" (??0Quaternion@@QEAA@XZ) referenced in function "public: void __cdecl Unit_test::Quaternion_test::set_data(void)" (?set_data@Quaternion_test@Unit_test@@QEAAXXZ)
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: __cdecl Quaternion::Quaternion(float const &,float const &,float const &,float const &)" (??0Quaternion@@QEAA@AEBM000@Z) referenced in function "public: void __cdecl Unit_test::Quaternion_test::add_sub(void)" (?add_sub@Quaternion_test@Unit_test@@QEAAXXZ)
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: __cdecl Quaternion::Quaternion(float const &,class Vector3f const &)" (??0Quaternion@@QEAA@AEBMAEBVVector3f@@@Z) referenced in function "public: void __cdecl Unit_test::Quaternion_test::set_data(void)" (?set_data@Quaternion_test@Unit_test@@QEAAXXZ)
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: class Vector3f __cdecl Quaternion::getV(void)const " (?getV@Quaternion@@QEBA?AVVector3f@@XZ) referenced in function "public: void __cdecl Unit_test::Quaternion_test::add_sub(void)" (?add_sub@Quaternion_test@Unit_test@@QEAAXXZ)
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: float __cdecl Quaternion::getW(void)const " (?getW@Quaternion@@QEBAMXZ) referenced in function "public: void __cdecl Unit_test::Quaternion_test::add_sub(void)" (?add_sub@Quaternion_test@Unit_test@@QEAAXXZ)
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Quaternion::setV(class Vector3f const &)" (?setV@Quaternion@@QEAAXAEBVVector3f@@@Z) referenced in function "public: void __cdecl Unit_test::Quaternion_test::set_data(void)" (?set_data@Quaternion_test@Unit_test@@QEAAXXZ)
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Quaternion::setV(float const &,float const &,float const &)" (?setV@Quaternion@@QEAAXAEBM00@Z) referenced in function "public: void __cdecl Unit_test::Quaternion_test::set_data(void)" (?set_data@Quaternion_test@Unit_test@@QEAAXXZ)
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Quaternion::setW(float const &)" (?setW@Quaternion@@QEAAXAEBM@Z) referenced in function "public: void __cdecl Unit_test::Quaternion_test::set_data(void)" (?set_data@Quaternion_test@Unit_test@@QEAAXXZ)
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Quaternion::add(class Quaternion)" (?add@Quaternion@@QEAAXV1@@Z) referenced in function "public: void __cdecl Unit_test::Quaternion_test::add_sub(void)" (?add_sub@Quaternion_test@Unit_test@@QEAAXXZ)
+Quaternion_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Quaternion::sub(class Quaternion)" (?sub@Quaternion@@QEAAXV1@@Z) referenced in function "public: void __cdecl Unit_test::Quaternion_test::add_sub(void)" (?add_sub@Quaternion_test@Unit_test@@QEAAXXZ)
+Matrix_test.obj : error LNK2019: unresolved external symbol "public: __cdecl Matrix4x4::Matrix4x4(class std::array<float,16> const &)" (??0Matrix4x4@@QEAA@AEBV?$array@M$0BA@@std@@@Z) referenced in function "public: void __cdecl Unit_test::Matrix4x4Test::mul(void)" (?mul@Matrix4x4Test@Unit_test@@QEAAXXZ)
+Matrix_test.obj : error LNK2019: unresolved external symbol "public: __cdecl Matrix4x4::Matrix4x4(void)" (??0Matrix4x4@@QEAA@XZ) referenced in function "public: void __cdecl Unit_test::Matrix4x4Test::set_data(void)" (?set_data@Matrix4x4Test@Unit_test@@QEAAXXZ)
+Matrix_test.obj : error LNK2019: unresolved external symbol "public: float __cdecl Matrix4x4::get(int const &)const " (?get@Matrix4x4@@QEBAMAEBH@Z) referenced in function "public: void __cdecl Unit_test::Matrix4x4Test::mul(void)" (?mul@Matrix4x4Test@Unit_test@@QEAAXXZ)
+Matrix_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Matrix4x4::set_data(class std::array<float,16>)" (?set_data@Matrix4x4@@QEAAXV?$array@M$0BA@@std@@@Z) referenced in function "public: void __cdecl Unit_test::Matrix4x4Test::mul(void)" (?mul@Matrix4x4Test@Unit_test@@QEAAXXZ)
+Matrix_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Matrix4x4::mul(class Matrix4x4 const &)" (?mul@Matrix4x4@@QEAAXAEBV1@@Z) referenced in function "public: void __cdecl Unit_test::Matrix4x4Test::mul(void)" (?mul@Matrix4x4Test@Unit_test@@QEAAXXZ)
+Matrix_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Matrix4x4::mul(float const &)" (?mul@Matrix4x4@@QEAAXAEBM@Z) referenced in function "public: void __cdecl Unit_test::Matrix4x4Test::mul(void)" (?mul@Matrix4x4Test@Unit_test@@QEAAXXZ)
+Vector_test.obj : error LNK2019: unresolved external symbol "public: __cdecl Vector3f::Vector3f(void)" (??0Vector3f@@QEAA@XZ) referenced in function "public: void __cdecl Unit_test::Vector3f_test::add_sub(void)" (?add_sub@Vector3f_test@Unit_test@@QEAAXXZ)
+Vector_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Vector3f::set(float const &,float const &,float const &)" (?set@Vector3f@@QEAAXAEBM00@Z) referenced in function "public: void __cdecl Unit_test::Vector3f_test::cross(void)" (?cross@Vector3f_test@Unit_test@@QEAAXXZ)
+Vector_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Vector3f::add(float const &,float const &,float const &)" (?add@Vector3f@@QEAAXAEBM00@Z) referenced in function "public: void __cdecl Unit_test::Vector3f_test::add_sub(void)" (?add_sub@Vector3f_test@Unit_test@@QEAAXXZ)
+Vector_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Vector3f::sub(float const &,float const &,float const &)" (?sub@Vector3f@@QEAAXAEBM00@Z) referenced in function "public: void __cdecl Unit_test::Vector3f_test::add_sub(void)" (?add_sub@Vector3f_test@Unit_test@@QEAAXXZ)
+Vector_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Vector3f::set(class Vector3f const &)" (?set@Vector3f@@QEAAXAEBV1@@Z) referenced in function "public: void __cdecl Unit_test::Vector3f_test::set(void)" (?set@Vector3f_test@Unit_test@@QEAAXXZ)
+Vector_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Vector3f::add(class Vector3f const &)" (?add@Vector3f@@QEAAXAEBV1@@Z) referenced in function "public: void __cdecl Unit_test::Vector3f_test::add_sub(void)" (?add_sub@Vector3f_test@Unit_test@@QEAAXXZ)
+Vector_test.obj : error LNK2019: unresolved external symbol "public: void __cdecl Vector3f::sub(class Vector3f const &)" (?sub@Vector3f@@QEAAXAEBV1@@Z) referenced in function "public: void __cdecl Unit_test::Vector3f_test::add_sub(void)" (?add_sub@Vector3f_test@Unit_test@@QEAAXXZ)
+Vector_test.obj : error LNK2019: unresolved external symbol "public: float __cdecl Vector3f::length(void)const " (?length@Vector3f@@QEBAMXZ) referenced in function "public: void __cdecl Unit_test::Vector3f_test::length(void)" (?length@Vector3f_test@Unit_test@@QEAAXXZ)
+Vector_test.obj : error LNK2019: unresolved external symbol "public: class Vector3f __cdecl Vector3f::cross(class Vector3f const &)const " (?cross@Vector3f@@QEBA?AV1@AEBV1@@Z) referenced in function "public: void __cdecl Unit_test::Vector3f_test::cross(void)" (?cross@Vector3f_test@Unit_test@@QEAAXXZ)
+C:\code\maths\Maths\x64\Debug\Unit_test.dll : fatal error LNK1120: 29 unresolved externals

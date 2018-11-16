@@ -1,0 +1,6 @@
+﻿  Matrix_test.cpp
+c:\code\maths\my_maths\unit_test\matrix_test.cpp(28): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\code\maths\my_maths\unit_test\matrix_test.cpp(66): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Utils_test.cpp
+  Generating Code...
+  Unit_test.vcxproj -> C:\code\maths\my_maths\Debug\Unit_test.dll

@@ -1,0 +1,11 @@
+﻿  Quaternion_test.cpp
+c:\code\maths\maths\unit_test\quaternion_test.cpp(57): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\code\maths\maths\unit_test\quaternion_test.cpp(58): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\code\maths\maths\unit_test\quaternion_test.cpp(77): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\code\maths\maths\unit_test\quaternion_test.cpp(78): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\code\maths\maths\unit_test\quaternion_test.cpp(90): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\code\maths\maths\unit_test\quaternion_test.cpp(100): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\code\maths\maths\unit_test\quaternion_test.cpp(111): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\code\maths\maths\unit_test\quaternion_test.cpp(185): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\code\maths\maths\unit_test\quaternion_test.cpp(201): warning C4305: 'argument': truncation from 'double' to 'const float'
+  Unit_test.vcxproj -> C:\code\maths\Maths\Debug\Unit_test.dll

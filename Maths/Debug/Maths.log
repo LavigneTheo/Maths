@@ -1,0 +1,4 @@
+﻿  Matrix4x4f.cpp
+c:\code\maths\my_maths\maths\matrix\matrix4x4f.cpp(17): warning C4018: '<': signed/unsigned mismatch
+c:\code\maths\my_maths\maths\matrix\matrix4x4f.cpp(18): warning C4018: '<': signed/unsigned mismatch
+  Maths.vcxproj -> C:\code\maths\my_maths\Debug\Maths.lib

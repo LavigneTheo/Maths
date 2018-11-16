@@ -1,0 +1,9 @@
+﻿  Matrix_test.cpp
+c:\code\maths\my_maths\unit_test\matrix_test.cpp(28): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\code\maths\my_maths\unit_test\matrix_test.cpp(65): warning C4305: 'initializing': truncation from 'double' to 'float'
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     Creating library C:\code\maths\my_maths\Release\Unit_test.lib and object C:\code\maths\my_maths\Release\Unit_test.exp
+  Generating code
+  All 328 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Unit_test.vcxproj -> C:\code\maths\my_maths\Release\Unit_test.dll
